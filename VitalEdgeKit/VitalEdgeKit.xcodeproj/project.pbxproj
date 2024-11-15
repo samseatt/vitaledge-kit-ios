@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A89FE82CE5CCF100E6BD16 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A89FE72CE5CCF100E6BD16 /* HealthKitService.swift */; };
+		37A9E3FE2CE69014001A1DBB /* HealthKitServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9E3FD2CE69014001A1DBB /* HealthKitServiceProtocol.swift */; };
+		37A9E4002CE69329001A1DBB /* MockHealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9E3FF2CE69329001A1DBB /* MockHealthKitService.swift */; };
+		37A9E4022CE6D179001A1DBB /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9E4012CE6D179001A1DBB /* ConfigurationView.swift */; };
+		37B3CFE92CE5BD8C00CE318F /* VitalEdgeKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3CFE82CE5BD8C00CE318F /* VitalEdgeKitApp.swift */; };
+		37B3CFEB2CE5BD8C00CE318F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3CFEA2CE5BD8C00CE318F /* ContentView.swift */; };
+		37B3CFED2CE5BD9000CE318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B3CFEC2CE5BD9000CE318F /* Assets.xcassets */; };
+		37B3CFF02CE5BD9000CE318F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B3CFEF2CE5BD9000CE318F /* Preview Assets.xcassets */; };
+		37B3CFFA2CE5BD9000CE318F /* VitalEdgeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3CFF92CE5BD9000CE318F /* VitalEdgeKitTests.swift */; };
+		37B3D0042CE5BD9000CE318F /* VitalEdgeKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3D0032CE5BD9000CE318F /* VitalEdgeKitUITests.swift */; };
+		37B3D0062CE5BD9000CE318F /* VitalEdgeKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3D0052CE5BD9000CE318F /* VitalEdgeKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B3CFF62CE5BD9000CE318F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B3CFDD2CE5BD8C00CE318F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B3CFE42CE5BD8C00CE318F;
+			remoteInfo = VitalEdgeKit;
+		};
+		37B3D0002CE5BD9000CE318F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B3CFDD2CE5BD8C00CE318F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B3CFE42CE5BD8C00CE318F;
+			remoteInfo = VitalEdgeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A89FE02CE5C1D600E6BD16 /* VitalEdgeKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalEdgeKit.entitlements; sourceTree = "<group>"; };
+		37A89FE72CE5CCF100E6BD16 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		37A9E3FD2CE69014001A1DBB /* HealthKitServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitServiceProtocol.swift; sourceTree = "<group>"; };
+		37A9E3FF2CE69329001A1DBB /* MockHealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHealthKitService.swift; sourceTree = "<group>"; };
+		37A9E4012CE6D179001A1DBB /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		37B3CFE52CE5BD8C00CE318F /* VitalEdgeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalEdgeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B3CFE82CE5BD8C00CE318F /* VitalEdgeKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalEdgeKitApp.swift; sourceTree = "<group>"; };
+		37B3CFEA2CE5BD8C00CE318F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37B3CFEC2CE5BD9000CE318F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B3CFEF2CE5BD9000CE318F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37B3CFF52CE5BD9000CE318F /* VitalEdgeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitalEdgeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B3CFF92CE5BD9000CE318F /* VitalEdgeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalEdgeKitTests.swift; sourceTree = "<group>"; };
+		37B3CFFF2CE5BD9000CE318F /* VitalEdgeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitalEdgeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B3D0032CE5BD9000CE318F /* VitalEdgeKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalEdgeKitUITests.swift; sourceTree = "<group>"; };
+		37B3D0052CE5BD9000CE318F /* VitalEdgeKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalEdgeKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B3CFE22CE5BD8C00CE318F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFF22CE5BD9000CE318F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFFC2CE5BD9000CE318F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A89FE12CE5C41100E6BD16 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				37A89FE42CE5C4A200E6BD16 /* Services */,
+				37A89FE22CE5C48E00E6BD16 /* Views */,
+				37A89FE32CE5C49700E6BD16 /* ViewModels */,
+				37A89FE62CE5C4B300E6BD16 /* Utilities */,
+				37A89FE52CE5C4AB00E6BD16 /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		37A89FE22CE5C48E00E6BD16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37B3CFEA2CE5BD8C00CE318F /* ContentView.swift */,
+				37A9E4012CE6D179001A1DBB /* ConfigurationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37A89FE32CE5C49700E6BD16 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37A89FE42CE5C4A200E6BD16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				37A89FE72CE5CCF100E6BD16 /* HealthKitService.swift */,
+				37A9E3FD2CE69014001A1DBB /* HealthKitServiceProtocol.swift */,
+				37A9E3FF2CE69329001A1DBB /* MockHealthKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		37A89FE52CE5C4AB00E6BD16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37A89FE62CE5C4B300E6BD16 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37B3CFDC2CE5BD8C00CE318F = {
+			isa = PBXGroup;
+			children = (
+				37B3CFE72CE5BD8C00CE318F /* VitalEdgeKit */,
+				37B3CFF82CE5BD9000CE318F /* VitalEdgeKitTests */,
+				37B3D0022CE5BD9000CE318F /* VitalEdgeKitUITests */,
+				37B3CFE62CE5BD8C00CE318F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B3CFE62CE5BD8C00CE318F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B3CFE52CE5BD8C00CE318F /* VitalEdgeKit.app */,
+				37B3CFF52CE5BD9000CE318F /* VitalEdgeKitTests.xctest */,
+				37B3CFFF2CE5BD9000CE318F /* VitalEdgeKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B3CFE72CE5BD8C00CE318F /* VitalEdgeKit */ = {
+			isa = PBXGroup;
+			children = (
+				37A89FE12CE5C41100E6BD16 /* Sources */,
+				37A89FE02CE5C1D600E6BD16 /* VitalEdgeKit.entitlements */,
+				37B3CFE82CE5BD8C00CE318F /* VitalEdgeKitApp.swift */,
+				37B3CFEC2CE5BD9000CE318F /* Assets.xcassets */,
+				37B3CFEE2CE5BD9000CE318F /* Preview Content */,
+			);
+			path = VitalEdgeKit;
+			sourceTree = "<group>";
+		};
+		37B3CFEE2CE5BD9000CE318F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37B3CFEF2CE5BD9000CE318F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37B3CFF82CE5BD9000CE318F /* VitalEdgeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				37B3CFF92CE5BD9000CE318F /* VitalEdgeKitTests.swift */,
+			);
+			path = VitalEdgeKitTests;
+			sourceTree = "<group>";
+		};
+		37B3D0022CE5BD9000CE318F /* VitalEdgeKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37B3D0032CE5BD9000CE318F /* VitalEdgeKitUITests.swift */,
+				37B3D0052CE5BD9000CE318F /* VitalEdgeKitUITestsLaunchTests.swift */,
+			);
+			path = VitalEdgeKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B3CFE42CE5BD8C00CE318F /* VitalEdgeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B3D0092CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKit" */;
+			buildPhases = (
+				37B3CFE12CE5BD8C00CE318F /* Sources */,
+				37B3CFE22CE5BD8C00CE318F /* Frameworks */,
+				37B3CFE32CE5BD8C00CE318F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitalEdgeKit;
+			productName = VitalEdgeKit;
+			productReference = 37B3CFE52CE5BD8C00CE318F /* VitalEdgeKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37B3CFF42CE5BD9000CE318F /* VitalEdgeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B3D00C2CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKitTests" */;
+			buildPhases = (
+				37B3CFF12CE5BD9000CE318F /* Sources */,
+				37B3CFF22CE5BD9000CE318F /* Frameworks */,
+				37B3CFF32CE5BD9000CE318F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B3CFF72CE5BD9000CE318F /* PBXTargetDependency */,
+			);
+			name = VitalEdgeKitTests;
+			productName = VitalEdgeKitTests;
+			productReference = 37B3CFF52CE5BD9000CE318F /* VitalEdgeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37B3CFFE2CE5BD9000CE318F /* VitalEdgeKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B3D00F2CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKitUITests" */;
+			buildPhases = (
+				37B3CFFB2CE5BD9000CE318F /* Sources */,
+				37B3CFFC2CE5BD9000CE318F /* Frameworks */,
+				37B3CFFD2CE5BD9000CE318F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B3D0012CE5BD9000CE318F /* PBXTargetDependency */,
+			);
+			name = VitalEdgeKitUITests;
+			productName = VitalEdgeKitUITests;
+			productReference = 37B3CFFF2CE5BD9000CE318F /* VitalEdgeKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B3CFDD2CE5BD8C00CE318F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37B3CFE42CE5BD8C00CE318F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					37B3CFF42CE5BD9000CE318F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37B3CFE42CE5BD8C00CE318F;
+					};
+					37B3CFFE2CE5BD9000CE318F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37B3CFE42CE5BD8C00CE318F;
+					};
+				};
+			};
+			buildConfigurationList = 37B3CFE02CE5BD8C00CE318F /* Build configuration list for PBXProject "VitalEdgeKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B3CFDC2CE5BD8C00CE318F;
+			productRefGroup = 37B3CFE62CE5BD8C00CE318F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B3CFE42CE5BD8C00CE318F /* VitalEdgeKit */,
+				37B3CFF42CE5BD9000CE318F /* VitalEdgeKitTests */,
+				37B3CFFE2CE5BD9000CE318F /* VitalEdgeKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B3CFE32CE5BD8C00CE318F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B3CFF02CE5BD9000CE318F /* Preview Assets.xcassets in Resources */,
+				37B3CFED2CE5BD9000CE318F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFF32CE5BD9000CE318F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFFD2CE5BD9000CE318F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B3CFE12CE5BD8C00CE318F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B3CFEB2CE5BD8C00CE318F /* ContentView.swift in Sources */,
+				37A9E4022CE6D179001A1DBB /* ConfigurationView.swift in Sources */,
+				37B3CFE92CE5BD8C00CE318F /* VitalEdgeKitApp.swift in Sources */,
+				37A9E3FE2CE69014001A1DBB /* HealthKitServiceProtocol.swift in Sources */,
+				37A9E4002CE69329001A1DBB /* MockHealthKitService.swift in Sources */,
+				37A89FE82CE5CCF100E6BD16 /* HealthKitService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFF12CE5BD9000CE318F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B3CFFA2CE5BD9000CE318F /* VitalEdgeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B3CFFB2CE5BD9000CE318F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B3D0042CE5BD9000CE318F /* VitalEdgeKitUITests.swift in Sources */,
+				37B3D0062CE5BD9000CE318F /* VitalEdgeKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37B3CFF72CE5BD9000CE318F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B3CFE42CE5BD8C00CE318F /* VitalEdgeKit */;
+			targetProxy = 37B3CFF62CE5BD9000CE318F /* PBXContainerItemProxy */;
+		};
+		37B3D0012CE5BD9000CE318F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B3CFE42CE5BD8C00CE318F /* VitalEdgeKit */;
+			targetProxy = 37B3D0002CE5BD9000CE318F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37B3D0072CE5BD9000CE318F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37B3D0082CE5BD9000CE318F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B3D00A2CE5BD9000CE318F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalEdgeKit/VitalEdgeKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitalEdgeKit/Preview Content\"";
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"VitalEdgeKit requires access to your health data to monitor your vital signs and provide health insights.\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B3D00B2CE5BD9000CE318F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalEdgeKit/VitalEdgeKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitalEdgeKit/Preview Content\"";
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"VitalEdgeKit requires access to your health data to monitor your vital signs and provide health insights.\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37B3D00D2CE5BD9000CE318F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalEdgeKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalEdgeKit";
+			};
+			name = Debug;
+		};
+		37B3D00E2CE5BD9000CE318F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalEdgeKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalEdgeKit";
+			};
+			name = Release;
+		};
+		37B3D0102CE5BD9000CE318F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitalEdgeKit;
+			};
+			name = Debug;
+		};
+		37B3D0112CE5BD9000CE318F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPYMYNGS4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaprise.VitalEdgeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitalEdgeKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B3CFE02CE5BD8C00CE318F /* Build configuration list for PBXProject "VitalEdgeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B3D0072CE5BD9000CE318F /* Debug */,
+				37B3D0082CE5BD9000CE318F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B3D0092CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B3D00A2CE5BD9000CE318F /* Debug */,
+				37B3D00B2CE5BD9000CE318F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B3D00C2CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B3D00D2CE5BD9000CE318F /* Debug */,
+				37B3D00E2CE5BD9000CE318F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B3D00F2CE5BD9000CE318F /* Build configuration list for PBXNativeTarget "VitalEdgeKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B3D0102CE5BD9000CE318F /* Debug */,
+				37B3D0112CE5BD9000CE318F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B3CFDD2CE5BD8C00CE318F /* Project object */;
+}

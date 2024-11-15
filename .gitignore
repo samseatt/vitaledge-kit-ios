@@ -1,0 +1,53 @@
+# Xcode files
+DerivedData/
+xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Build files
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.xcworkspace
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Simulator files
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+test_output/
+html/
+
+# Archives
+*.xcarchive
+
+# Temporary and backup files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Swift Package Manager Binary Artifacts
+.xcframework
+
+# Specific to Xcode/iOS
+*.xcuserstate
+*.moved-aside
+*.xcdebugger/
+
+# Logs
+*.log
+*.xccrashpoint
+
