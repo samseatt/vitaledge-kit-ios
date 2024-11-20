@@ -51,3 +51,6 @@ html/
 *.log
 *.xccrashpoint
 
+# Work in progress
+docs-wip/
+
